@@ -6,7 +6,7 @@
 
 - Put the unzipped folder on your desktop and rename it to MovingWall
 
-- Manually open 1 instance of stranded isle
+- Manually open 1 instance of speedcraft/dreamcraft
 
 - Set the settings to your liking
 
@@ -50,4 +50,6 @@
 
 - Everything should hopefully work!
 
-- If the big square starts getting reset instead of the second one then reload the reset script and reset once until it fixes
+- If the big square starts getting reset instead of the second one then reload the reset script and reset once (repeat until it fixes)
+
+- The OBS scenes are just the bare minimum so feel free to add whatever you want, make sure you can differentiate between wall 1 and 2 so you know if you need to hold ctrl when going to play an instance
