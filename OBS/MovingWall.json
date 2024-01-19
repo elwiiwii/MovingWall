@@ -4695,9 +4695,6 @@
                 "OBSBasic.SelectScene": [
                     {
                         "key": "OBS_KEY_NUMMINUS"
-                    },
-                    {
-                        "key": "OBS_KEY_COMMA"
                     }
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
@@ -5638,11 +5635,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "OBSBasic.SelectScene": [
-                    {
-                        "key": "OBS_KEY_PERIOD"
-                    }
-                ],
+                "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
                 "libobs.show_scene_item.Instance_18": [],
