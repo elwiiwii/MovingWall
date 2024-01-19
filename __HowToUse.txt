@@ -1,0 +1,20 @@
+Pcraft by NuSan
+Pcraft Timermod by rythin
+Pcraft Practicemod by Arumin
+Scripts by elwiwi
+
+
+Default Hotkeys:
+
+Open Instances: [
+Close Instances: ]
+Reset: NumpadEnter
+Play 1-9: Numpad1-9
+Play 10: Numpad0
+Play 11-15: Ctrl+Numpad1-5
+Return To Wall: NumpadDot
+Mute Instances: NumpadSub
+
+If you put the Pcraft15_Wall folder on your desktop and run Wall.ahk it should just work. If you want to put it somewhere else you have to replace all the file paths in Wall.ahk to the correct ones. To change hotkeys replace the hotkey (e.g. NumpadEnter::) with your new hotkey. 
+
+If u need help or have issues message me on discord elwiwi#0132 :)
