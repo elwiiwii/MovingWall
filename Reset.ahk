@@ -31,7 +31,7 @@ if (reset == 1) {
 	ControlSend, ahk_parent, {Tab down}, instance_7
 	ControlSend, ahk_parent, {Tab down}, instance_8
 	ControlSend, ahk_parent, {Tab down}, instance_9
-	Sleep 20
+	Sleep 34
 	ControlSend, ahk_parent, {Tab up}, instance__1
 	ControlSend, ahk_parent, {Tab up}, instance_2
 	ControlSend, ahk_parent, {Tab up}, instance_3
@@ -53,7 +53,7 @@ if (reset == 1) {
 	ControlSend, ahk_parent, {Tab down}, instance_16
 	ControlSend, ahk_parent, {Tab down}, instance_17
 	ControlSend, ahk_parent, {Tab down}, instance_18
-	Sleep 20
+	Sleep 34
 	ControlSend, ahk_parent, {Tab up}, instance_10
 	ControlSend, ahk_parent, {Tab up}, instance_11
 	ControlSend, ahk_parent, {Tab up}, instance_12
