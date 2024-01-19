@@ -14,9 +14,14 @@ SendMode, Input
 CoordMode, Mouse, Screen
 DllCall("ntdll\ZwSetTimerResolution","Int",5000,"Int",1,"Int*",MyCurrentTimerResolution)
 
-; OPEN INSTANCES
+; OPEN VANILLA INSTANCES
 [::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Open.ahk
+Run, %A_Desktop%\MovingWall\Wall_Scripts\OpenVanilla.ahk
+return
+
+; OPEN DREAM% INSTANCES
+^[::
+Run, %A_Desktop%\MovingWall\Wall_Scripts\OpenDream.ahk
 return
 
 ; CLOSE INSTANCES

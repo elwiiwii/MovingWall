@@ -1,6 +1,6 @@
 {
-    "current_scene": "Wall 1",
-    "current_program_scene": "Wall 1",
+    "current_scene": "Practice",
+    "current_program_scene": "Practice",
     "scene_order": [
         {
             "name": "Wall 1"
@@ -3733,34 +3733,6 @@
         },
         {
             "prev_ver": 486604803,
-            "name": "Instance_P",
-            "uuid": "b1bca391-de72-402d-b780-9037d1b98d17",
-            "id": "window_capture",
-            "versioned_id": "window_capture",
-            "settings": {
-                "priority": 1,
-                "window": "obama:SDL_app:practicemod.exe",
-                "cursor": false
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 486604803,
             "name": "Practice",
             "uuid": "20f2c341-697e-45fa-8a1d-7dc65e2f9c6e",
             "id": "scene",
@@ -3808,7 +3780,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Instance_P",
+                        "name": "PracticeMod",
                         "source_uuid": "b1bca391-de72-402d-b780-9037d1b98d17",
                         "visible": true,
                         "locked": true,
@@ -3862,9 +3834,37 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
-                "libobs.show_scene_item.Instance_P": [],
-                "libobs.hide_scene_item.Instance_P": []
+                "libobs.show_scene_item.PracticeMod": [],
+                "libobs.hide_scene_item.PracticeMod": []
             },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 486604803,
+            "name": "PracticeMod",
+            "uuid": "b1bca391-de72-402d-b780-9037d1b98d17",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "priority": 1,
+                "window": "obama:SDL_app:practicemod.exe",
+                "cursor": false
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
