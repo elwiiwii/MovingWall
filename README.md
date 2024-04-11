@@ -30,7 +30,7 @@
 
 - Import scene collection MovingWall.json
 
-- Go to tools > scripts and remove and re-add SceneSwitcher.lua (idk why but you have to do this but every time you open OBS sorry)
+- Go to tools > scripts and reload SceneSwitcher.lua
 
 - Go to hotkeys in OBS settings
 
