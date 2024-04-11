@@ -14,7 +14,7 @@ SendMode, Input
 CoordMode, Mouse, Screen
 DllCall("ntdll\ZwSetTimerResolution","Int",5000,"Int",1,"Int*",MyCurrentTimerResolution)
 
-#::Reload
+^#::Reload
 
 reset = 1
 

@@ -1,6 +1,6 @@
 {
-    "current_scene": "Practice",
-    "current_program_scene": "Practice",
+    "current_scene": "Wall 1",
+    "current_program_scene": "Wall 1",
     "scene_order": [
         {
             "name": "Wall 1"
@@ -118,11 +118,7 @@
             {
                 "path": "C:/Users/jlgar/Desktop/MovingWall/OBS/SceneSwitcher.lua",
                 "settings": {
-                    "scene_switcher": [
-                        {
-                            "key": "OBS_KEY_NUMPERIOD"
-                        }
-                    ]
+                    "scene_switcher": []
                 }
             }
         ],
@@ -155,7 +151,7 @@
         {
             "prev_ver": 486604803,
             "name": "1",
-            "uuid": "0feacbe5-7c1c-4470-a46c-c7b7ea81d1af",
+            "uuid": "6e801d2a-4eab-40ab-a9ad-3c036f332224",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
@@ -182,7 +178,7 @@
         {
             "prev_ver": 486604803,
             "name": "2",
-            "uuid": "9cba6a77-067b-45c8-a946-f32d50cd53f3",
+            "uuid": "d5708746-3c29-4247-be90-7138a0edbe05",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
@@ -209,7 +205,7 @@
         {
             "prev_ver": 486604803,
             "name": "Audio Output Capture",
-            "uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+            "uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
             "id": "wasapi_output_capture",
             "versioned_id": "wasapi_output_capture",
             "settings": {},
@@ -238,7 +234,7 @@
         {
             "prev_ver": 486604803,
             "name": "Display Capture",
-            "uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+            "uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
             "id": "monitor_capture",
             "versioned_id": "monitor_capture",
             "settings": {
@@ -265,16 +261,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 1",
-            "uuid": "7fef8344-2a83-49f4-aa84-f01b9616a1ab",
+            "uuid": "8d7db283-1441-4dc6-9d02-dfdb8295c3ff",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 19,
+                "id_counter": 21,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -311,8 +307,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 20,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_1",
-                        "source_uuid": "81aaf0e1-1dbf-42f5-bc35-01eac0b6f9fa",
+                        "source_uuid": "e2f631a5-b201-47f3-9c78-3b120ab09a93",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -350,7 +384,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -407,6 +441,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_1": [],
                 "libobs.hide_scene_item.Instance_1": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -428,16 +464,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 10",
-            "uuid": "43b804ab-fe71-4811-b6a5-1065584be3a6",
+            "uuid": "d819add5-df43-4550-b0c0-8826ae200439",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 11,
+                "id_counter": 13,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -474,8 +510,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 12,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_10",
-                        "source_uuid": "5830583e-3bba-43a6-be10-5346ee1d8656",
+                        "source_uuid": "d6217656-3ac0-411f-b209-17c022e81135",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -513,7 +587,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -571,6 +645,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_10": [],
                 "libobs.hide_scene_item.Instance_10": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -593,16 +669,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 11",
-            "uuid": "a747c6ad-a1b9-48a7-ad15-c7266eccf120",
+            "uuid": "276c3d96-0e47-40b4-8927-9410ee477659",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 11,
+                "id_counter": 13,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -639,8 +715,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 12,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_11",
-                        "source_uuid": "aa84f48a-d0f1-45b6-9387-cc46263e95c7",
+                        "source_uuid": "3efe78f4-ed70-43d2-83ec-2a5c11851137",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -678,7 +792,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -736,6 +850,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_11": [],
                 "libobs.hide_scene_item.Instance_11": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -758,16 +874,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 12",
-            "uuid": "483804f7-091a-462a-999d-65445fa0ee21",
+            "uuid": "e235cd1b-6adc-4aaa-875a-900968c105e3",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 11,
+                "id_counter": 13,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -804,8 +920,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 12,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_12",
-                        "source_uuid": "7ddf6359-6273-4e75-baa8-2e15498750df",
+                        "source_uuid": "043828b1-00a0-4ad8-a458-53101d5bc22c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -843,7 +997,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -901,6 +1055,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_12": [],
                 "libobs.hide_scene_item.Instance_12": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -923,16 +1079,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 13",
-            "uuid": "b00df870-a396-4442-bc16-6b23af50f8ad",
+            "uuid": "f9038d91-a3ac-4f55-8d37-00db122c511c",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 7,
+                "id_counter": 9,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -969,8 +1125,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_13",
-                        "source_uuid": "1132f9a8-7115-49bb-b8bf-72a3b3cae9cf",
+                        "source_uuid": "91535a5c-f5d8-4ec1-ae51-f17e62d29c0e",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1008,7 +1202,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1066,6 +1260,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_13": [],
                 "libobs.hide_scene_item.Instance_13": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -1088,16 +1284,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 14",
-            "uuid": "b7a782bd-a7e9-4f4b-be64-49821c6f10de",
+            "uuid": "a1921661-529a-4eeb-b618-5cffbe97bd08",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 7,
+                "id_counter": 9,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1134,8 +1330,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_14",
-                        "source_uuid": "dbfb3e09-8e10-42a5-9db4-51bafcdcf9ec",
+                        "source_uuid": "28cdb324-5196-4065-8e03-da8392d17093",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1173,7 +1407,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1231,6 +1465,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_14": [],
                 "libobs.hide_scene_item.Instance_14": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -1253,16 +1489,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 15",
-            "uuid": "a535c7fe-1895-4fe3-b228-7d2bd564316b",
+            "uuid": "13c5cb64-e1f8-47eb-8de0-effcb83a1938",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 7,
+                "id_counter": 9,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1299,8 +1535,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_15",
-                        "source_uuid": "061814ce-c0c9-4710-b7c6-ba3d8287bef4",
+                        "source_uuid": "e86475ce-53bf-4d72-bab6-a9af25f19b0c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1338,7 +1612,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1396,6 +1670,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_15": [],
                 "libobs.hide_scene_item.Instance_15": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -1418,16 +1694,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 16",
-            "uuid": "65f2a87b-95de-4d33-b807-dd372c8d7505",
+            "uuid": "ef2f90ca-3709-4918-8258-35dc4431e1b4",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 7,
+                "id_counter": 9,
                 "custom_size": false,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1464,8 +1740,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_16",
-                        "source_uuid": "f5d94beb-c004-41f9-b85d-c72b010c3705",
+                        "source_uuid": "6fb34118-95e1-47c1-9763-666904f23f9a",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1503,7 +1817,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1561,6 +1875,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_16": [],
                 "libobs.hide_scene_item.Instance_16": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -1583,16 +1899,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 17",
-            "uuid": "54685ab1-6aff-47c8-9dd8-380bd4927921",
+            "uuid": "cfb4e9b3-627e-4e90-8b87-10a059a853e1",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 7,
+                "id_counter": 9,
                 "custom_size": false,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1629,8 +1945,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_17",
-                        "source_uuid": "e8868d0f-a1a9-4f64-90e8-b37e6f1af2dc",
+                        "source_uuid": "ecf02afc-fcf5-4309-92f7-9b122dfc940c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1668,7 +2022,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1726,6 +2080,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_17": [],
                 "libobs.hide_scene_item.Instance_17": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -1748,16 +2104,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 18",
-            "uuid": "f9ad73d0-bd91-44d4-8627-f30ae79f6d77",
+            "uuid": "f3202ad4-b1da-426c-8cb7-7a1da44d5fe7",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 7,
+                "id_counter": 9,
                 "custom_size": false,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1794,8 +2150,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_18",
-                        "source_uuid": "b4756b48-b2ab-4da8-a5df-25ff66904fdb",
+                        "source_uuid": "f09e6c7c-1216-43e0-bada-cb57595f2dab",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1833,7 +2227,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1891,6 +2285,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_18": [],
                 "libobs.hide_scene_item.Instance_18": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -1913,16 +2309,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 2",
-            "uuid": "eb6e26cc-682f-4076-8a55-778cc8dd56ad",
+            "uuid": "8afd0023-cd66-4ca9-9b08-6316a6ad30ce",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 10,
+                "id_counter": 12,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1959,8 +2355,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_2",
-                        "source_uuid": "434f5efc-d9c0-422d-8273-c9a895072405",
+                        "source_uuid": "c316d240-dd2f-49e3-b079-741ed817c464",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -1998,7 +2432,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2055,6 +2489,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_2": [],
                 "libobs.hide_scene_item.Instance_2": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -2076,16 +2512,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 3",
-            "uuid": "f4e013cc-95cc-4816-bb5a-4db296072f52",
+            "uuid": "87510b05-c40b-4bdd-9ace-e9d840ab387f",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 10,
+                "id_counter": 12,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2122,8 +2558,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_3",
-                        "source_uuid": "90fd60ab-3ca0-4fce-a802-242b562f979e",
+                        "source_uuid": "b4190650-dbd2-4930-995e-baff71b82d87",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2161,7 +2635,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2218,6 +2692,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_3": [],
                 "libobs.hide_scene_item.Instance_3": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -2239,16 +2715,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 4",
-            "uuid": "66836cf2-a579-4cb8-a2f5-852cd8ab5255",
+            "uuid": "5a739dc8-120e-41e4-ba2a-a8061b9a20f4",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 10,
+                "id_counter": 12,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2285,8 +2761,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_4",
-                        "source_uuid": "09f0c87f-1267-4772-98b7-f7fb0d0bcd1e",
+                        "source_uuid": "b0f777ef-a801-4ba7-8571-d2d00334763f",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2324,7 +2838,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2381,6 +2895,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_4": [],
                 "libobs.hide_scene_item.Instance_4": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -2402,16 +2918,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 5",
-            "uuid": "65ba0738-2bc0-4bec-9700-44df6b83bcac",
+            "uuid": "4750c53a-f6a8-4143-acb1-ff45dd16b8f0",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 10,
+                "id_counter": 12,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2448,8 +2964,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_5",
-                        "source_uuid": "726a92fd-c660-47e0-85d0-fad235d20910",
+                        "source_uuid": "0158c860-1967-4bad-be2e-e3e5240e985c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2487,7 +3041,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2544,6 +3098,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_5": [],
                 "libobs.hide_scene_item.Instance_5": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -2565,16 +3121,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 6",
-            "uuid": "85dda8ef-29ee-4577-a96b-8dd8b31c762d",
+            "uuid": "36e1aeef-e144-4a17-b246-015d8634bbb8",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 10,
+                "id_counter": 12,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2611,8 +3167,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_6",
-                        "source_uuid": "4aea9cd7-dfc2-4ec1-a7aa-267ba9d29b61",
+                        "source_uuid": "1fb0db7b-9506-4e75-8c43-37eafab2b86d",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2650,7 +3244,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2707,6 +3301,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_6": [],
                 "libobs.hide_scene_item.Instance_6": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -2728,16 +3324,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 7",
-            "uuid": "573cca1e-4fb7-46c3-88de-2713d51e0d4c",
+            "uuid": "37c374dd-d03d-4c73-8466-55d0fc0be4b7",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 10,
+                "id_counter": 12,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2774,8 +3370,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_7",
-                        "source_uuid": "51adc14b-4577-4c33-bcbe-0d66e0f91232",
+                        "source_uuid": "ab400d53-d94f-4fa3-a286-8b21cafda5ac",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2813,7 +3447,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2870,6 +3504,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_7": [],
                 "libobs.hide_scene_item.Instance_7": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -2891,16 +3527,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 8",
-            "uuid": "631b1b55-0862-4c3b-b493-61dc387f52b4",
+            "uuid": "8f37b6d6-d6d1-4c35-bbea-c022257b9a00",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 10,
+                "id_counter": 12,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2937,8 +3573,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_8",
-                        "source_uuid": "4edff813-c6c9-47e0-97f5-ddb4ca79082d",
+                        "source_uuid": "4e2c346a-639f-441b-9212-c6a11420bf8b",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2976,7 +3650,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -3033,6 +3707,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_8": [],
                 "libobs.hide_scene_item.Instance_8": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -3054,16 +3730,16 @@
         {
             "prev_ver": 486604803,
             "name": "Instance 9",
-            "uuid": "7c726cfb-c2b4-46b0-b302-8e4646702da6",
+            "uuid": "dcf8e6b5-0a6e-4db1-ad70-81d6efe28632",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 11,
+                "id_counter": 13,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -3100,8 +3776,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 12,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_9",
-                        "source_uuid": "9eff4bca-1b37-43e2-83c0-c624cfe4b5f9",
+                        "source_uuid": "0746e5f0-54e1-4e1b-94e5-edde06590be9",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -3139,7 +3853,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -3196,6 +3910,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_9": [],
                 "libobs.hide_scene_item.Instance_9": [],
                 "libobs.show_scene_item.Display Capture": [
@@ -3217,7 +3933,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_1",
-            "uuid": "81aaf0e1-1dbf-42f5-bc35-01eac0b6f9fa",
+            "uuid": "e2f631a5-b201-47f3-9c78-3b120ab09a93",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3246,7 +3962,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_10",
-            "uuid": "5830583e-3bba-43a6-be10-5346ee1d8656",
+            "uuid": "d6217656-3ac0-411f-b209-17c022e81135",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3275,7 +3991,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_11",
-            "uuid": "aa84f48a-d0f1-45b6-9387-cc46263e95c7",
+            "uuid": "3efe78f4-ed70-43d2-83ec-2a5c11851137",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3304,7 +4020,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_12",
-            "uuid": "7ddf6359-6273-4e75-baa8-2e15498750df",
+            "uuid": "043828b1-00a0-4ad8-a458-53101d5bc22c",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3333,7 +4049,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_13",
-            "uuid": "1132f9a8-7115-49bb-b8bf-72a3b3cae9cf",
+            "uuid": "91535a5c-f5d8-4ec1-ae51-f17e62d29c0e",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3361,7 +4077,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_14",
-            "uuid": "dbfb3e09-8e10-42a5-9db4-51bafcdcf9ec",
+            "uuid": "28cdb324-5196-4065-8e03-da8392d17093",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3389,7 +4105,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_15",
-            "uuid": "061814ce-c0c9-4710-b7c6-ba3d8287bef4",
+            "uuid": "e86475ce-53bf-4d72-bab6-a9af25f19b0c",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3417,7 +4133,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_16",
-            "uuid": "f5d94beb-c004-41f9-b85d-c72b010c3705",
+            "uuid": "6fb34118-95e1-47c1-9763-666904f23f9a",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3445,7 +4161,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_17",
-            "uuid": "e8868d0f-a1a9-4f64-90e8-b37e6f1af2dc",
+            "uuid": "ecf02afc-fcf5-4309-92f7-9b122dfc940c",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3473,7 +4189,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_18",
-            "uuid": "b4756b48-b2ab-4da8-a5df-25ff66904fdb",
+            "uuid": "f09e6c7c-1216-43e0-bada-cb57595f2dab",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3501,7 +4217,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_2",
-            "uuid": "434f5efc-d9c0-422d-8273-c9a895072405",
+            "uuid": "c316d240-dd2f-49e3-b079-741ed817c464",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3531,7 +4247,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_3",
-            "uuid": "90fd60ab-3ca0-4fce-a802-242b562f979e",
+            "uuid": "b4190650-dbd2-4930-995e-baff71b82d87",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3560,7 +4276,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_4",
-            "uuid": "09f0c87f-1267-4772-98b7-f7fb0d0bcd1e",
+            "uuid": "b0f777ef-a801-4ba7-8571-d2d00334763f",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3589,7 +4305,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_5",
-            "uuid": "726a92fd-c660-47e0-85d0-fad235d20910",
+            "uuid": "0158c860-1967-4bad-be2e-e3e5240e985c",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3618,7 +4334,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_6",
-            "uuid": "4aea9cd7-dfc2-4ec1-a7aa-267ba9d29b61",
+            "uuid": "1fb0db7b-9506-4e75-8c43-37eafab2b86d",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3647,7 +4363,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_7",
-            "uuid": "51adc14b-4577-4c33-bcbe-0d66e0f91232",
+            "uuid": "ab400d53-d94f-4fa3-a286-8b21cafda5ac",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3676,7 +4392,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_8",
-            "uuid": "4edff813-c6c9-47e0-97f5-ddb4ca79082d",
+            "uuid": "4e2c346a-639f-441b-9212-c6a11420bf8b",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3705,7 +4421,7 @@
         {
             "prev_ver": 486604803,
             "name": "Instance_9",
-            "uuid": "9eff4bca-1b37-43e2-83c0-c624cfe4b5f9",
+            "uuid": "0746e5f0-54e1-4e1b-94e5-edde06590be9",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3733,17 +4449,48 @@
         },
         {
             "prev_ver": 486604803,
+            "name": "Mic",
+            "uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+            "id": "wasapi_input_capture",
+            "versioned_id": "wasapi_input_capture",
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{bcf71df4-f33a-43b2-88f0-69384cd6ee61}"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": true,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 486604803,
             "name": "Practice",
-            "uuid": "20f2c341-697e-45fa-8a1d-7dc65e2f9c6e",
+            "uuid": "a2f2ae24-1c57-4362-bc3d-93114abf3acf",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 8,
+                "id_counter": 9,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3780,8 +4527,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 9,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "PracticeMod",
-                        "source_uuid": "b1bca391-de72-402d-b780-9037d1b98d17",
+                        "source_uuid": "c31ab03c-b16f-4630-a53e-c5a7e52bb726",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -3834,6 +4619,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.PracticeMod": [],
                 "libobs.hide_scene_item.PracticeMod": []
             },
@@ -3845,7 +4632,7 @@
         {
             "prev_ver": 486604803,
             "name": "PracticeMod",
-            "uuid": "b1bca391-de72-402d-b780-9037d1b98d17",
+            "uuid": "c31ab03c-b16f-4630-a53e-c5a7e52bb726",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -3873,16 +4660,16 @@
         {
             "prev_ver": 486604803,
             "name": "Wall 1",
-            "uuid": "eaeecea6-9e68-4ffa-86ae-6dd18946af7d",
+            "uuid": "cdc29dd9-0f08-4af5-adcc-634b040f59d8",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 51,
+                "id_counter": 52,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -3919,8 +4706,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 52,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_18",
-                        "source_uuid": "b4756b48-b2ab-4da8-a5df-25ff66904fdb",
+                        "source_uuid": "f09e6c7c-1216-43e0-bada-cb57595f2dab",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -3958,7 +4783,7 @@
                     },
                     {
                         "name": "Instance_17",
-                        "source_uuid": "e8868d0f-a1a9-4f64-90e8-b37e6f1af2dc",
+                        "source_uuid": "ecf02afc-fcf5-4309-92f7-9b122dfc940c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -3996,7 +4821,7 @@
                     },
                     {
                         "name": "Instance_16",
-                        "source_uuid": "f5d94beb-c004-41f9-b85d-c72b010c3705",
+                        "source_uuid": "6fb34118-95e1-47c1-9763-666904f23f9a",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4034,7 +4859,7 @@
                     },
                     {
                         "name": "Instance_15",
-                        "source_uuid": "061814ce-c0c9-4710-b7c6-ba3d8287bef4",
+                        "source_uuid": "e86475ce-53bf-4d72-bab6-a9af25f19b0c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4072,7 +4897,7 @@
                     },
                     {
                         "name": "Instance_14",
-                        "source_uuid": "dbfb3e09-8e10-42a5-9db4-51bafcdcf9ec",
+                        "source_uuid": "28cdb324-5196-4065-8e03-da8392d17093",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4110,7 +4935,7 @@
                     },
                     {
                         "name": "Instance_13",
-                        "source_uuid": "1132f9a8-7115-49bb-b8bf-72a3b3cae9cf",
+                        "source_uuid": "91535a5c-f5d8-4ec1-ae51-f17e62d29c0e",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4148,7 +4973,7 @@
                     },
                     {
                         "name": "Instance_12",
-                        "source_uuid": "7ddf6359-6273-4e75-baa8-2e15498750df",
+                        "source_uuid": "043828b1-00a0-4ad8-a458-53101d5bc22c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4186,7 +5011,7 @@
                     },
                     {
                         "name": "Instance_11",
-                        "source_uuid": "aa84f48a-d0f1-45b6-9387-cc46263e95c7",
+                        "source_uuid": "3efe78f4-ed70-43d2-83ec-2a5c11851137",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4224,7 +5049,7 @@
                     },
                     {
                         "name": "Instance_10",
-                        "source_uuid": "5830583e-3bba-43a6-be10-5346ee1d8656",
+                        "source_uuid": "d6217656-3ac0-411f-b209-17c022e81135",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4262,7 +5087,7 @@
                     },
                     {
                         "name": "Instance_9",
-                        "source_uuid": "9eff4bca-1b37-43e2-83c0-c624cfe4b5f9",
+                        "source_uuid": "0746e5f0-54e1-4e1b-94e5-edde06590be9",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4300,7 +5125,7 @@
                     },
                     {
                         "name": "Instance_8",
-                        "source_uuid": "4edff813-c6c9-47e0-97f5-ddb4ca79082d",
+                        "source_uuid": "4e2c346a-639f-441b-9212-c6a11420bf8b",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4338,7 +5163,7 @@
                     },
                     {
                         "name": "Instance_7",
-                        "source_uuid": "51adc14b-4577-4c33-bcbe-0d66e0f91232",
+                        "source_uuid": "ab400d53-d94f-4fa3-a286-8b21cafda5ac",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4376,7 +5201,7 @@
                     },
                     {
                         "name": "Instance_6",
-                        "source_uuid": "4aea9cd7-dfc2-4ec1-a7aa-267ba9d29b61",
+                        "source_uuid": "1fb0db7b-9506-4e75-8c43-37eafab2b86d",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4414,7 +5239,7 @@
                     },
                     {
                         "name": "Instance_5",
-                        "source_uuid": "726a92fd-c660-47e0-85d0-fad235d20910",
+                        "source_uuid": "0158c860-1967-4bad-be2e-e3e5240e985c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4452,7 +5277,7 @@
                     },
                     {
                         "name": "Instance_4",
-                        "source_uuid": "09f0c87f-1267-4772-98b7-f7fb0d0bcd1e",
+                        "source_uuid": "b0f777ef-a801-4ba7-8571-d2d00334763f",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4490,7 +5315,7 @@
                     },
                     {
                         "name": "Instance_3",
-                        "source_uuid": "90fd60ab-3ca0-4fce-a802-242b562f979e",
+                        "source_uuid": "b4190650-dbd2-4930-995e-baff71b82d87",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4528,7 +5353,7 @@
                     },
                     {
                         "name": "Instance_2",
-                        "source_uuid": "434f5efc-d9c0-422d-8273-c9a895072405",
+                        "source_uuid": "c316d240-dd2f-49e3-b079-741ed817c464",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4566,7 +5391,7 @@
                     },
                     {
                         "name": "Instance_1",
-                        "source_uuid": "81aaf0e1-1dbf-42f5-bc35-01eac0b6f9fa",
+                        "source_uuid": "e2f631a5-b201-47f3-9c78-3b120ab09a93",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4604,7 +5429,7 @@
                     },
                     {
                         "name": "1",
-                        "source_uuid": "0feacbe5-7c1c-4470-a46c-c7b7ea81d1af",
+                        "source_uuid": "6e801d2a-4eab-40ab-a9ad-3c036f332224",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4642,7 +5467,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": false,
                         "locked": false,
                         "rot": 0.0,
@@ -4699,6 +5524,8 @@
                 ],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_18": [],
                 "libobs.hide_scene_item.Instance_18": [],
                 "libobs.show_scene_item.Instance_17": [],
@@ -4816,16 +5643,16 @@
         {
             "prev_ver": 486604803,
             "name": "Wall 2",
-            "uuid": "a258bf9e-2042-4b57-b452-b90fa474a07c",
+            "uuid": "902ece59-9394-4b79-ba6c-e650fc7de386",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 28,
+                "id_counter": 29,
                 "custom_size": false,
                 "items": [
                     {
                         "name": "Audio Output Capture",
-                        "source_uuid": "4d53dc89-d43c-42ca-8bee-f05de5aca87c",
+                        "source_uuid": "3f967732-52fd-44f4-9880-5be42eb40ac6",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4862,8 +5689,46 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Mic",
+                        "source_uuid": "fdf7a23e-79ab-4588-8158-f795763bc8ff",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 29,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Instance_18",
-                        "source_uuid": "b4756b48-b2ab-4da8-a5df-25ff66904fdb",
+                        "source_uuid": "f09e6c7c-1216-43e0-bada-cb57595f2dab",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4901,7 +5766,7 @@
                     },
                     {
                         "name": "Instance_17",
-                        "source_uuid": "e8868d0f-a1a9-4f64-90e8-b37e6f1af2dc",
+                        "source_uuid": "ecf02afc-fcf5-4309-92f7-9b122dfc940c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4939,7 +5804,7 @@
                     },
                     {
                         "name": "Instance_16",
-                        "source_uuid": "f5d94beb-c004-41f9-b85d-c72b010c3705",
+                        "source_uuid": "6fb34118-95e1-47c1-9763-666904f23f9a",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -4977,7 +5842,7 @@
                     },
                     {
                         "name": "Instance_15",
-                        "source_uuid": "061814ce-c0c9-4710-b7c6-ba3d8287bef4",
+                        "source_uuid": "e86475ce-53bf-4d72-bab6-a9af25f19b0c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5015,7 +5880,7 @@
                     },
                     {
                         "name": "Instance_14",
-                        "source_uuid": "dbfb3e09-8e10-42a5-9db4-51bafcdcf9ec",
+                        "source_uuid": "28cdb324-5196-4065-8e03-da8392d17093",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5053,7 +5918,7 @@
                     },
                     {
                         "name": "Instance_13",
-                        "source_uuid": "1132f9a8-7115-49bb-b8bf-72a3b3cae9cf",
+                        "source_uuid": "91535a5c-f5d8-4ec1-ae51-f17e62d29c0e",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5091,7 +5956,7 @@
                     },
                     {
                         "name": "Instance_12",
-                        "source_uuid": "7ddf6359-6273-4e75-baa8-2e15498750df",
+                        "source_uuid": "043828b1-00a0-4ad8-a458-53101d5bc22c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5129,7 +5994,7 @@
                     },
                     {
                         "name": "Instance_11",
-                        "source_uuid": "aa84f48a-d0f1-45b6-9387-cc46263e95c7",
+                        "source_uuid": "3efe78f4-ed70-43d2-83ec-2a5c11851137",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5167,7 +6032,7 @@
                     },
                     {
                         "name": "Instance_10",
-                        "source_uuid": "5830583e-3bba-43a6-be10-5346ee1d8656",
+                        "source_uuid": "d6217656-3ac0-411f-b209-17c022e81135",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5205,7 +6070,7 @@
                     },
                     {
                         "name": "Instance_9",
-                        "source_uuid": "9eff4bca-1b37-43e2-83c0-c624cfe4b5f9",
+                        "source_uuid": "0746e5f0-54e1-4e1b-94e5-edde06590be9",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5243,7 +6108,7 @@
                     },
                     {
                         "name": "Instance_8",
-                        "source_uuid": "4edff813-c6c9-47e0-97f5-ddb4ca79082d",
+                        "source_uuid": "4e2c346a-639f-441b-9212-c6a11420bf8b",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5281,7 +6146,7 @@
                     },
                     {
                         "name": "Instance_7",
-                        "source_uuid": "51adc14b-4577-4c33-bcbe-0d66e0f91232",
+                        "source_uuid": "ab400d53-d94f-4fa3-a286-8b21cafda5ac",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5319,7 +6184,7 @@
                     },
                     {
                         "name": "Instance_6",
-                        "source_uuid": "4aea9cd7-dfc2-4ec1-a7aa-267ba9d29b61",
+                        "source_uuid": "1fb0db7b-9506-4e75-8c43-37eafab2b86d",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5357,7 +6222,7 @@
                     },
                     {
                         "name": "Instance_5",
-                        "source_uuid": "726a92fd-c660-47e0-85d0-fad235d20910",
+                        "source_uuid": "0158c860-1967-4bad-be2e-e3e5240e985c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5395,7 +6260,7 @@
                     },
                     {
                         "name": "Instance_4",
-                        "source_uuid": "09f0c87f-1267-4772-98b7-f7fb0d0bcd1e",
+                        "source_uuid": "b0f777ef-a801-4ba7-8571-d2d00334763f",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5433,7 +6298,7 @@
                     },
                     {
                         "name": "Instance_3",
-                        "source_uuid": "90fd60ab-3ca0-4fce-a802-242b562f979e",
+                        "source_uuid": "b4190650-dbd2-4930-995e-baff71b82d87",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5471,7 +6336,7 @@
                     },
                     {
                         "name": "Instance_2",
-                        "source_uuid": "434f5efc-d9c0-422d-8273-c9a895072405",
+                        "source_uuid": "c316d240-dd2f-49e3-b079-741ed817c464",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5509,7 +6374,7 @@
                     },
                     {
                         "name": "Instance_1",
-                        "source_uuid": "81aaf0e1-1dbf-42f5-bc35-01eac0b6f9fa",
+                        "source_uuid": "e2f631a5-b201-47f3-9c78-3b120ab09a93",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5547,7 +6412,7 @@
                     },
                     {
                         "name": "2",
-                        "source_uuid": "9cba6a77-067b-45c8-a946-f32d50cd53f3",
+                        "source_uuid": "d5708746-3c29-4247-be90-7138a0edbe05",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -5585,7 +6450,7 @@
                     },
                     {
                         "name": "Display Capture",
-                        "source_uuid": "41a019a6-5784-4ab3-83c7-d8f0dd203418",
+                        "source_uuid": "24fad61e-b650-4372-8885-a7069b2654b5",
                         "visible": false,
                         "locked": false,
                         "rot": 0.0,
@@ -5638,6 +6503,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.Audio Output Capture": [],
                 "libobs.hide_scene_item.Audio Output Capture": [],
+                "libobs.show_scene_item.Mic": [],
+                "libobs.hide_scene_item.Mic": [],
                 "libobs.show_scene_item.Instance_18": [],
                 "libobs.hide_scene_item.Instance_18": [],
                 "libobs.show_scene_item.Instance_17": [],
