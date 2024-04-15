@@ -24,6 +24,11 @@ return
 Run, %A_Desktop%\MovingWall\Wall_Scripts\OpenDream.ahk
 return
 
+; OPEN DELUXE INSTANCES
++[::
+Run, %A_Desktop%\MovingWall\Wall_Scripts\OpenDeluxe.ahk
+return
+
 ; CLOSE INSTANCES
 ]::
 Run, %A_Desktop%\MovingWall\Wall_Scripts\Close.ahk

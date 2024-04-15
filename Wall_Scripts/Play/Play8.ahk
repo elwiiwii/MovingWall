@@ -16,6 +16,10 @@ DllCall("ntdll\ZwSetTimerResolution","Int",5000,"Int",1,"Int*",MyCurrentTimerRes
 
 WinMaximize, instance_8
 
+ControlSend, ahk_parent, {q down}, instance_8
+Sleep 20
+ControlSend, ahk_parent, {q up}, instance_8
+
 ControlSend, ahk_parent, {Ctrl down}, instance_8
 ControlSend, ahk_parent, {m down}, instance_8
 Sleep 20
