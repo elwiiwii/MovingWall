@@ -30,7 +30,7 @@
 
 - Import scene collection MovingWall.json
 
-- Go to tools > scripts and remove and re-add SceneSwitcher.lua (idk why but you have to do this but every time you open OBS sorry)
+- Go to tools > scripts and reload SceneSwitcher.lua
 
 - Go to hotkeys in OBS settings
 
@@ -53,3 +53,5 @@
 - If the big square starts getting reset instead of the second one then reload the reset script and reset once (repeat until it fixes)
 
 - The OBS scenes are just the bare minimum so feel free to add whatever you want, make sure you can differentiate between wall 1 and 2 so you know if you need to hold ctrl when going to play an instance
+
+- Setup Video https://youtu.be/GQD2FnIe-kE
