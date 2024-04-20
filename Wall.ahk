@@ -29,6 +29,16 @@ return
 Run, %A_Desktop%\MovingWall\Wall_Scripts\OpenDeluxe.ahk
 return
 
+; OPEN DELUXE DREAM% INSTANCES
+^+[::
+Run, %A_Desktop%\MovingWall\Wall_Scripts\OpenDeluxeDream.ahk
+return
+
+; OPEN PRACTICE MODE INSTANCES
+^]::
+Run, %A_Desktop%\MovingWall\Wall_Scripts\OpenPracticeMode.ahk
+return
+
 ; CLOSE INSTANCES
 ]::
 Run, %A_Desktop%\MovingWall\Wall_Scripts\Close.ahk
