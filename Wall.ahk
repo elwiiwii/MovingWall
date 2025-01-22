@@ -51,90 +51,108 @@ return
 
 ; PLAY INSTANCE 1
 Numpad1::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play1.ahk
+WinActivate, instance__1
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 2
 Numpad2::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play2.ahk
+WinActivate, instance_2
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 3
 Numpad3::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play3.ahk
+WinActivate, instance_3
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 4
 Numpad4::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play4.ahk
+WinActivate, instance_4
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 5
 Numpad5::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play5.ahk
+WinActivate, instance_5
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 6
 Numpad6::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play6.ahk
+WinActivate, instance_6
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 7
 Numpad7::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play7.ahk
+WinActivate, instance_7
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 8
 Numpad8::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play8.ahk
+WinActivate, instance_8
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 9
 Numpad9::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play9.ahk
+WinActivate, instance_9
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 10
 ^Numpad1::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play10.ahk
+WinActivate, instance_10
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 11
 ^Numpad2::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play11.ahk
+WinActivate, instance_11
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 12
 ^Numpad3::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play12.ahk
+WinActivate, instance_12
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 13
 ^Numpad4::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play13.ahk
+WinActivate, instance_13
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 14
 ^Numpad5::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play14.ahk
+WinActivate, instance_14
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 15
 ^Numpad6::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play15.ahk
+WinActivate, instance_15
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 16
 ^Numpad7::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play16.ahk
+WinActivate, instance_16
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 17
 ^Numpad8::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play17.ahk
+WinActivate, instance_17
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return
 
 ; PLAY INSTANCE 18
 ^Numpad9::
-Run, %A_Desktop%\MovingWall\Wall_Scripts\Play\Play18.ahk
+WinActivate, instance_18
+Run, %A_Desktop%\MovingWall\Wall_Scripts\Play.ahk
 return

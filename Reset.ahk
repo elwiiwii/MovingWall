@@ -16,51 +16,37 @@ DllCall("ntdll\ZwSetTimerResolution","Int",5000,"Int",1,"Int*",MyCurrentTimerRes
 
 ^#::Reload
 
-reset = 1
+reset = 2
 
 NumpadDot::
 if (reset == 1) {
 	ControlSend, ahk_parent, {Tab down}, instance__1
-	ControlSend, ahk_parent, {Tab down}, instance_2
-	ControlSend, ahk_parent, {Tab down}, instance_3
-	ControlSend, ahk_parent, {Tab down}, instance_4
-	ControlSend, ahk_parent, {Tab down}, instance_5
-	ControlSend, ahk_parent, {Tab down}, instance_6
-	ControlSend, ahk_parent, {Tab down}, instance_7
-	ControlSend, ahk_parent, {Tab down}, instance_8
-	ControlSend, ahk_parent, {Tab down}, instance_9
-	Sleep 100
+	Loop, 8
+	{
+		i := A_Index + 1
+		ControlSend, ahk_parent, {Tab down}, instance_%i%
+	}
+	Sleep 67
 	ControlSend, ahk_parent, {Tab up}, instance__1
-	ControlSend, ahk_parent, {Tab up}, instance_2
-	ControlSend, ahk_parent, {Tab up}, instance_3
-	ControlSend, ahk_parent, {Tab up}, instance_4
-	ControlSend, ahk_parent, {Tab up}, instance_5
-	ControlSend, ahk_parent, {Tab up}, instance_6
-	ControlSend, ahk_parent, {Tab up}, instance_7
-	ControlSend, ahk_parent, {Tab up}, instance_8
-	ControlSend, ahk_parent, {Tab up}, instance_9
+	Loop, 8
+	{
+		i := A_Index + 1
+		ControlSend, ahk_parent, {Tab up}, instance_%i%
+	}
 	reset = 2
 	return
 } else {
-	ControlSend, ahk_parent, {Tab down}, instance_10
-	ControlSend, ahk_parent, {Tab down}, instance_11
-	ControlSend, ahk_parent, {Tab down}, instance_12
-	ControlSend, ahk_parent, {Tab down}, instance_13
-	ControlSend, ahk_parent, {Tab down}, instance_14
-	ControlSend, ahk_parent, {Tab down}, instance_15
-	ControlSend, ahk_parent, {Tab down}, instance_16
-	ControlSend, ahk_parent, {Tab down}, instance_17
-	ControlSend, ahk_parent, {Tab down}, instance_18
-	Sleep 100
-	ControlSend, ahk_parent, {Tab up}, instance_10
-	ControlSend, ahk_parent, {Tab up}, instance_11
-	ControlSend, ahk_parent, {Tab up}, instance_12
-	ControlSend, ahk_parent, {Tab up}, instance_13
-	ControlSend, ahk_parent, {Tab up}, instance_14
-	ControlSend, ahk_parent, {Tab up}, instance_15
-	ControlSend, ahk_parent, {Tab up}, instance_16
-	ControlSend, ahk_parent, {Tab up}, instance_17
-	ControlSend, ahk_parent, {Tab up}, instance_18
+	Loop, 9
+	{
+		i := A_Index + 9
+		ControlSend, ahk_parent, {Tab down}, instance_%i%
+	}
+	Sleep 67
+	Loop, 9
+	{
+		i := A_Index + 9
+		ControlSend, ahk_parent, {Tab up}, instance_%i%
+	}
 	reset = 1
 	return
 }
