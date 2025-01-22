@@ -42,7 +42,7 @@ Sleep 67
 Loop, 17
 {
     i := 19 - A_Index
-    ControlSend, ahk_parent, {Tab up}, instance_%&%i%
+    ControlSend, ahk_parent, {Tab up}, instance_%i%
 }
 ControlSend, ahk_parent, {Tab up}, instance__1
 

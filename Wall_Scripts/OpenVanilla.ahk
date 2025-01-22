@@ -17,14 +17,14 @@ DllCall("ntdll\ZwSetTimerResolution","Int",5000,"Int",1,"Int*",MyCurrentTimerRes
 Loop, 17
 {
     i := 19 - A_Index
-    Run, %A_Desktop%\MovingWall\StatCraft\statcraft%i%.p8
-    WinWaitActive, STATCRAFT%i%.P8 (PICO-8)
+    Run, %A_Desktop%\MovingWall\StatCraft\%i%\statcraft%i%.exe
+    WinWaitActive, statcraft%i%.exe
     WinSetTitle, instance_%i%
     WinGet, pid, PID, instance_%i%
     Process, Priority, %pid%, A
 }
-Run, %A_Desktop%\MovingWall\StatCraft\statcraft1.p8
-WinWaitActive, STATCRAFT1.P8 (PICO-8)
+Run, %A_Desktop%\MovingWall\StatCraft\1\statcraft1.exe
+WinWaitActive, statcraft1.exe
 WinSetTitle, instance__1
 WinGet, pid, PID, instance__1
 Process, Priority, %pid%, A
