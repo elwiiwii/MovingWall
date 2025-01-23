@@ -16,8 +16,8 @@ DllCall("ntdll\ZwSetTimerResolution","Int",5000,"Int",1,"Int*",MyCurrentTimerRes
 
 WinGet, active_id, ID, A
 WinMove, ahk_id %active_id%, , 440, 0, 1039, 1159
-WinGet, pid, PID, ahk_id %active_id%
-Process, Priority, %pid%, H
+;WinGet, pid, PID, ahk_id %active_id%
+;Process, Priority, %pid%, H
 
 ControlSend, ahk_parent, {q down}, ahk_id %active_id%
 Sleep 67

@@ -25,28 +25,11 @@ Send, {LControl up}
 Sleep 67
 
 WinMove, ahk_id %active_id%, , 888, 505, 144, 167
-WinGet, pid, PID, ahk_id %active_id%
-Process, Priority, %pid%, A
-
-Sleep 67
-
-Loop, 17
-{
-    i := 19 - A_Index
-    ControlSend, ahk_parent, {Tab down}, instance_%i%
-}
-ControlSend, ahk_parent, {Tab down}, instance__1
-
-Sleep 67
-
-Loop, 17
-{
-    i := 19 - A_Index
-    ControlSend, ahk_parent, {Tab up}, instance_%i%
-}
-ControlSend, ahk_parent, {Tab up}, instance__1
+;WinGet, pid, PID, ahk_id %active_id%
+;Process, Priority, %pid%, N
 
 Sleep 67
 
 WinActivate, instance__1
 WinActivate, Full-screen Projector (Preview)
+WinActivate, Windowed Projector (Preview)

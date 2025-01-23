@@ -21,17 +21,19 @@ reset = 2
 NumpadDot::
 if (reset == 1) {
 	ControlSend, ahk_parent, {Tab down}, instance__1
+	Sleep 34
 	Loop, 8
 	{
 		i := A_Index + 1
 		ControlSend, ahk_parent, {Tab down}, instance_%i%
+		Sleep 34
 	}
-	Sleep 67
 	ControlSend, ahk_parent, {Tab up}, instance__1
 	Loop, 8
 	{
 		i := A_Index + 1
 		ControlSend, ahk_parent, {Tab up}, instance_%i%
+		Sleep 34
 	}
 	reset = 2
 	return
@@ -40,12 +42,13 @@ if (reset == 1) {
 	{
 		i := A_Index + 9
 		ControlSend, ahk_parent, {Tab down}, instance_%i%
+		Sleep 34
 	}
-	Sleep 67
 	Loop, 9
 	{
 		i := A_Index + 9
 		ControlSend, ahk_parent, {Tab up}, instance_%i%
+		Sleep 34
 	}
 	reset = 1
 	return

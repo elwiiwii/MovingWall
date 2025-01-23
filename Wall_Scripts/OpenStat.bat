@@ -1,0 +1,1 @@
+for /l %%x in (1, 1, 18) do Start "" "C:\Users\me\Desktop\MovingWall\StatCraft\%%x\statcraft%%x.exe"
